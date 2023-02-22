@@ -1,5 +1,14 @@
 {
   "host": "localhost",
   "port": 5001,
-  "debug": true
+  "debug": false,
+  "secret": "some-key",
+  "projects": {
+    "soothsayer": {
+      "directory": "/home/ubuntu/soothsayer"
+    },
+    "deploy": {
+      "directory": "/home/ubuntu/deploy"
+    }
+  }
 }
